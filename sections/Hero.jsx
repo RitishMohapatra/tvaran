@@ -6,7 +6,7 @@ import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
+  <section className={`${styles.yPaddings}  md:pl-16`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -16,7 +16,9 @@ const Hero = () => (
     >
       <div className="flex justify-center items-center flex-col relative z-10">
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          TVARAN
+          {/* <Image src="/herologo.png"  width={600} height={200} className='bg-white' />
+           */}
+           TVARAN
         </motion.h1>
         <motion.div
           variants={textVariant(1.2)}
@@ -34,16 +36,16 @@ const Hero = () => (
       >
         <div className="absolute w-full h-[300px] md:hero-gradient md:rounded-tl-[140px] z-[0] -top-[30px]" />
 
-        {/* <img
-          src="/cover.png"
-          alt="hero_cover"
-          className=" md:hidden w-full sm:h-[500px] h-[350px] object-cover  z-10 relative"
-        /> */}
         <img
           src="/cover01.png"
           alt="hero_cover"
-          className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]  w-full  object-cover rounded-tl-[140px] z-10 "
+          className=" w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px]  z-10 relative"
         />
+        {/* <img
+          src="/cover01.png"
+          alt="hero_cover"
+          className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]  w-full  object-cover rounded-tl-[140px] z-10 "
+        /> */}
 
         <a href="#events">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">

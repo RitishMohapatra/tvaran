@@ -35,7 +35,7 @@ export const exploreWorlds01 = [
   {
     id: 'world-1',
     imgUrl: '/events/b&b.png',
-    title: 'Human Football',
+    title: 'Human Foosball',
   },
   {
     id: 'world-2',
@@ -86,13 +86,7 @@ export const newFeatures = [
 ];
 
 export const insights = [
-  {
-    imgUrl: '/team/Finance.png',
-    title: 'Schmitten ',
-    link: 'https://forms.gle/frHYj2Gazh4oumH49',
-    subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
-  },
+
   {
     imgUrl: '/team/Admins.jpeg',
     title: 'Tales of tavern',
@@ -177,23 +171,12 @@ export const insights = [
 ];
 export const superteams = [
   {
-    imgUrl: '/team01.png',
-    title: 'IGNITE Head',
+    imgUrl: '/team/Finance.png',
+    title: 'Schmitten',
     subtitle:
         'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
   },
-  {
-    imgUrl: '/team02.png',
-    title: 'IGNITE Co-Head',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
-  },
-  {
-    imgUrl: '/team/Admins.jpg',
-    title: 'Admins Department',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
-  },
+
 
 
 ];

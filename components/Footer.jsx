@@ -40,7 +40,7 @@ const Footer = () => (
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
-            TAVARN 2K23
+            TVARAN 2K23
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
             Copyright © 2023 | Made with ❤️ by Ritish Mohapatra | All rights reserved.

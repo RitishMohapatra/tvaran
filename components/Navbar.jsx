@@ -22,7 +22,7 @@ const Navbar = () => (
         className="  invisible w-[24px] h-[24px] object-contain"
       />
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        TVARAN 2k23
+        <img src="/igLogo.png" alt="" className=' h-32' />
       </h2>
       <img
         src=""

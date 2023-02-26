@@ -17,7 +17,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index,link }) => (
 			/>
 
 			<div className='flex items-center     '>
-        <h1 className='font-bold  text-[24px] ml-16 md:ml-10 text-white'>"{title}"</h1>
+        <h1 className='font-bold  text-[24px] ml-16 md:ml-10 text-white'>{title}</h1>
 
 			</div>
 
